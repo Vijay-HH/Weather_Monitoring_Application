@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Daily Weather Summary</h1>
+
+        <!-- Weather Information Card -->
+        <div class="weather-card">
+            <h2>Weather for {{ city }}</h2>
+            <div class="temperature">{{ average_temp }} °C</div>
+            <div class="condition">{{ dominant_condition }}</div>
+            <p>Max Temperature: {{ max_temp }} °C</p>
+            <p>Min Temperature: {{ min_temp }} °C</p>
+            <p>Last Updated: {{ last_updated }}</p>
+        </div>
+
+        <a href="index.html" class="btn">Back to Dashboard</a>
+
+        <!-- Slider example for setting alerts -->
+        <div class="slider-container">
+            <p>Set alert threshold:</p>
+            <input type="range" class="slider" min="0" max="50" value="{{ alert_threshold }}">
+        </div>
+
+        <!-- Pagination / Page Movers -->
+        <!--<div class="pagination">
+            <a href="index.html">Prev</a>
+            <a href="#next">Next</a>
+        </div>-->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Weather Monitoring System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

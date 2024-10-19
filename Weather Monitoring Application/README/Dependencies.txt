@@ -1,0 +1,14 @@
+Dependencies:
+
+The Python dependencies are listed in requirements.txt:
+
+
+Flask==2.0.1
+requests==2.25.1
+python-dotenv==0.17.1
+To install the dependencies, run:
+
+
+pip install -r requirements.txt
+For Docker, the Dockerfile is already configured, and no additional setup is required.
+

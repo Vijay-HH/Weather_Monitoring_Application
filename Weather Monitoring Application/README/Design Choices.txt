@@ -1,0 +1,10 @@
+Design Choices:
+
+Backend: Flask Flask was chosen for its lightweight nature and simplicity. It handles routing and integrates well with both the front end and external APIs like OpenWeatherMap.
+
+Frontend: Modern UI with Animations The front end is built using HTML, CSS, and JavaScript. It incorporates animated buttons, gradients, and modern design principles to create a visually appealing and interactive experience.
+
+AJAX for Real-Time Data Fetching Instead of full-page reloads, the application uses AJAX to fetch and update weather data dynamically, ensuring a smooth user experience.
+
+Containerization with Docker Docker is used to containerize the application, ensuring consistency across different environments. This allows for easier deployment and scalability.
+

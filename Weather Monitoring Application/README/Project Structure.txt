@@ -1,0 +1,14 @@
+weather-monitoring-app/
+│
+├── app.py                  # Main Flask application
+├── templates/              # HTML templates
+│   ├── index.html          # Home page
+│   ├── summary.html        # Weather summary page
+├── static/                 # Static files (CSS, JavaScript, images)
+│   ├── style.css           # Custom styles for front end
+│   ├── script.js           # JavaScript for front end logic
+├── Dockerfile              # Docker configuration
+├── requirements.txt        # Python dependencies
+├── README.md               # This README file
+├── .env                    # Environment variables (e.g., API Key)
+└── .gitignore              # Files to ignore in git
